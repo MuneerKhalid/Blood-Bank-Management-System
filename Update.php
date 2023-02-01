@@ -252,7 +252,7 @@ $Contact=$_POST['contact'];
 
   if ($data) {
     echo "<script>alert('Record Updated')</script>";
-    echo "<script>window.location.assign('display.php')</script>";
+    echo "<script>window.location.assign('DonorRecords.php')</script>";
   } else {
     echo "Record Not Updated ";
   }

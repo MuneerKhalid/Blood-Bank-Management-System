@@ -18,7 +18,7 @@
             <h1 class="nav-logo">MK</h1>
             <ul class="nav-links">
               <li>Inventory</li>
-              <li><a href="#flipd"> About Us</a></li>
+              <li><a href="#About"> About Us</a></li>
               <li>Explore</li>
             </ul>
           </nav>
@@ -27,7 +27,7 @@
     </main>
   
 
-    <div class="flip-portion" id="flipd">
+    <div class="flip-portion" id="About">
       <div class="flip-card-container" style="--hue: 220">
         <div class="flip-card">
           <div class="card-front">
@@ -143,7 +143,7 @@
               />
             </figure>
 
-            <button onclick="view()">View</button>
+            <button onclick="vieww()">View</button>
 
             <!-- can add svg here and remove these eight spans -->
             <div class="design-container">

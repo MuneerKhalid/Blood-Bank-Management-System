@@ -1,8 +1,5 @@
-const view = () =>{
-    window.location.assign
-    ('display.php');
+const vieww =() =>{
 
-
-
+    window.location.assign('DonorRecords.php');
 
 }
