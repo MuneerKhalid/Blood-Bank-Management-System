@@ -246,7 +246,6 @@ $Contact=$_POST['contact'];
 
   $query = "UPDATE `donor` SET `Name`='$Name', `FatherName`='$FatherName',  `Age`='$Age', `Gender`='$Gender', `Weight`='$Weight', `Blood_Type`='$Blood_Type', `KnownDisease`='$KnownDisease', `RegistrationDate`='$RegistrationDate', `Address`='$Address', `City`='$City', `Contact`='$Contact'  WHERE `Donor_ID`='$DonorID' ;";
 
-  // $query="INSERT INTO donor values('$DonorID','$Name', '$Age', '$Gender', '$Blood_Type', '$Date', '$BloodType2', '$City', '$KnownDiseaseStr')";
 
   $data = mysqli_query($conn, $query);
 

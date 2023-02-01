@@ -13,7 +13,7 @@
   <body>
     <div class="login-box">
       <h2>Login</h2>
-      <form>
+      <form autocomplete="off">
         <div class="user-box">
           <input id="username" type="text" name="username" required="" />
           <label>Username</label>
@@ -28,7 +28,7 @@
 
           <div id="register">
             Don't have an account ?
-            <a href="#"> Register </a>
+            <a href="./SignUp.php"> Register </a>
           </div>
         </div>
       </form>

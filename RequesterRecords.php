@@ -62,7 +62,7 @@ if($total != 0){
 
         <td><a href= './update2.php?Requester_ID=$result[Requester_ID]&Name=$result[Name]&Age=$result[Age]&Gender=$result[Gender]&Blood_Type=$result[Blood_Type]&Blood_Bag_Quantity=$result[Blood_Bag_Quantity]&Usage_Of_Blood=$result[Usage_Of_Blood]&Date_Of_Request=$result[Date_Of_Request]&Reason_Of_Need=$result[Reason_Of_Need]&Address=$result[Address]&City=$result[City]&Contact=$result[Contact]'/><input type='submit' value='Edit' id='editbtn'></td>
 
-        <td><a href= './delete.php?DonorID=$result[Donor_ID]' /><input type='submit' value='Delete' id='deletebtn' ></td>
+        <td><a href= './delete2.php?Requester_ID=$result[Requester_ID]' /><input type='submit' value='Delete' id='deletebtn' ></td>
         </tr>
         ";
     }
