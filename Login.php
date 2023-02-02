@@ -31,7 +31,7 @@ session_start();
       </div>
 
       <div class="button-form">
-        <button id="submit" type="submit" name="login"> Submit </button>
+        <button id="submit" type="submit" name="login"> Log In </button>
 
         <div id="register">
           Don't have an account ?
