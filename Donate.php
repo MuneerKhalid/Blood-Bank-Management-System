@@ -1,6 +1,14 @@
 <?php
 include('./connect.php');
 error_reporting(0);
+session_start();
+$userprofile = $_SESSION['user_name'];
+
+if($userprofile == true){
+
+}else{
+    header('location:Login.php');
+}
 ?>
 
 <!DOCTYPE html>

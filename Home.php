@@ -1,3 +1,14 @@
+<?php
+session_start();
+$userprofile = $_SESSION['user_name'];
+
+if($userprofile == true){
+
+}else{
+    header('location:Login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,6 +31,7 @@
               <li>Inventory</li>
               <li><a href="#About"> About Us</a></li>
               <li>Explore</li>
+              <li><button ><a href="./Logout.php">Log Out</a></button></li>
             </ul>
           </nav>
         </div>
