@@ -40,9 +40,12 @@ session_start();
 
 $userprofile = $_SESSION['user_name'];
 
-if($userprofile == true){
+if($userprofile == 'muneer'){
 
-}else{
+}elseif($userprofile == true && $userprofile != 'muneer'){
+    header('location:Home.php');
+}
+else{
     header('location:Login.php');
 }
 
