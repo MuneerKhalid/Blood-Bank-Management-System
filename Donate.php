@@ -101,10 +101,6 @@ if($userprofile == true){
             <option class="label" value="B+">B+</option>
             <option class="label" value="O+">O+</option>
             <option class="label" value="AB+">AB+</option>
-            <option class="label" value="AB-">AB-</option>
-            <option class="label" value="B-">B-</option>
-            <option class="label" value="A-">A-</option>
-            <option class="label" value="O-">O-</option>
 
           </select>
         </div>
