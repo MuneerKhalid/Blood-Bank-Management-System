@@ -1,6 +1,7 @@
 <?php
 include('./connect.php');
 error_reporting(0);
+session_start();
 ?>
 
 
@@ -56,6 +57,7 @@ if (isset($_POST['login'])) {
 
 
   if ($total == 1) {
+    $_SESSION['user_name'] = $UserName; 
     echo "<script>alert('Login Successful')</script>";
     echo "<script>window.location.assign('Home.php')</script>";
   } else {

@@ -1,6 +1,9 @@
 <?php
 include('./connect.php');
-error_reporting(0)
+error_reporting(0);
+session_start();
+// echo "Welcome ".$_SESSION['user_name'];
+
 ?>
 
 
@@ -34,6 +37,14 @@ error_reporting(0)
 
 
 <?php
+
+$userprofile = $_SESSION['user_name'];
+
+if($userprofile == true){
+
+}else{
+    header('location:Login.php');
+}
 
 $query = "SELECT * FROM donor";
 $data = mysqli_query($conn,$query);
