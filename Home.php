@@ -155,7 +155,7 @@ if($userprofile == true){
               />
             </figure>
 
-            <button onclick="vieww()">View</button>
+            <button><a href="./RoleValidation.php">View</a></button>
 
             <!-- can add svg here and remove these eight spans -->
             <div class="design-container">
@@ -183,4 +183,6 @@ if($userprofile == true){
     </div>  
   </body>
 </html>
+
+
 

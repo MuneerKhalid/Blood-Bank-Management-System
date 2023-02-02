@@ -1,5 +1,5 @@
 const vieww =() =>{
-    window.location.assign('DonorRecords.php');
+    window.location.assign('RoleValidation.php');
 }
 
 const vieww2 =() =>{
