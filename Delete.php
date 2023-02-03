@@ -4,7 +4,7 @@ error_reporting(0);
 session_start();
 $userprofile = $_SESSION['user_name'];
 
-if($userprofile == true){
+if($userprofile == 'muneer'){
 
 }elseif($userprofile == true && $userprofile != 'muneer'){
   header('location:Home.php');

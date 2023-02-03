@@ -26,6 +26,7 @@ session_start();
                 <th>Gender</th>
                 <th>Weight</th>
                 <th>Blood Type</th>
+                <th>Blood Bag Quantity</th>
                 <th>KnownDisease</th>
                 <th>Registration Date</th>
                 <th>Address</th>
@@ -68,6 +69,7 @@ if($total != 0){
         <td>".$result['Gender']."</td>
         <td>".$result['Weight']."</td>
         <td>".$result['Blood_Type']."</td>
+        <td>".$result['Blood_Bag_Quantity']."</td>
         <td>".$result['KnownDisease']."</td>
         <td>".$result['RegistrationDate']."</td>
         <td>".$result['Address']."</td>
