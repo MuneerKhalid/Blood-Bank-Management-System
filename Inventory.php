@@ -37,26 +37,106 @@ if ($userprofile == 'muneer') {
 
             <?php
 
-            $query = "SELECT * FROM `inventory`";
+            $query = "SELECT * FROM `inventory` WHERE `Blood_Type`= 'A+' ";
             $data = mysqli_query($conn, $query);
             $total = mysqli_num_rows($data);
+            $BloodCount = 0;
 
             if ($total != 0) {
-
                 while ($result = mysqli_fetch_assoc($data)) {
-                    echo "
-                <tr>
-                <td>" . $result['Blood_ID'] . "</td>
-                <td>" . $result['Blood_Type'] . "</td>
-                <td>" . $result['Blood_Bag_Quantity'] . "</td>
-                <td>" . $result['Blood_Bag_RecievedDate'] . "</td>
-                <td>" . $result['Blood_Bag_Expiry'] . "</td>
-                </tr>
-                ";
+                    $BloodCount = $BloodCount + $result['Blood_Bag_Quantity'];
+                    $ReceiveDate = $result['Blood_Bag_RecievedDate'];
+                    $ExpiryDate = $result['Blood_Bag_Expiry'];
                 }
             } else {
                 echo "No Records found";
             }
+
+            echo "
+                <tr>
+                <td>" . '1' . "</td>
+                <td>" . 'A+' . "</td>
+                <td>" . $BloodCount . "</td>
+                <td>" . $ReceiveDate . "</td>
+                <td>" . $ExpiryDate . "</td>
+                </tr>
+                ";
+
+            $query = "SELECT * FROM `inventory` WHERE `Blood_Type`= 'B+' ";
+            $data = mysqli_query($conn, $query);
+            $total = mysqli_num_rows($data);
+            $BloodCount = 0;
+
+            if ($total != 0) {
+                while ($result = mysqli_fetch_assoc($data)) {
+                    $BloodCount = $BloodCount + $result['Blood_Bag_Quantity'];
+                    $ReceiveDate = $result['Blood_Bag_RecievedDate'];
+                    $ExpiryDate = $result['Blood_Bag_Expiry'];
+                }
+            } else {
+                echo "No Records found";
+            }
+
+
+            echo "
+                    <tr>
+                    <td>" . '2' . "</td>
+                    <td>" . 'B+' . "</td>
+                    <td>" . $BloodCount . "</td>
+                    <td>" . $ReceiveDate . "</td>
+                    <td>" . $ExpiryDate . "</td>
+                    </tr>
+                    ";
+
+            $query = "SELECT * FROM `inventory` WHERE `Blood_Type`= 'O+' ";
+            $data = mysqli_query($conn, $query);
+            $total = mysqli_num_rows($data);
+            $BloodCount = 0;
+
+            if ($total != 0) {
+                while ($result = mysqli_fetch_assoc($data)) {
+                    $BloodCount = $BloodCount + $result['Blood_Bag_Quantity'];
+                    $ReceiveDate = $result['Blood_Bag_RecievedDate'];
+                    $ExpiryDate = $result['Blood_Bag_Expiry'];
+                }
+            } else {
+                echo "No Records found";
+            }
+
+            echo "
+                <tr>
+                <td>" . '3' . "</td>
+                <td>" . 'O+' . "</td>
+                <td>" . $BloodCount . "</td>
+                <td>" . $ReceiveDate . "</td>
+                <td>" . $ExpiryDate . "</td>
+                </tr>
+                ";
+
+            $query = "SELECT * FROM `inventory` WHERE `Blood_Type`= 'AB+' ";
+            $data = mysqli_query($conn, $query);
+            $total = mysqli_num_rows($data);
+            $BloodCount = 0;
+
+            if ($total != 0) {
+                while ($result = mysqli_fetch_assoc($data)) {
+                    $BloodCount = $BloodCount + $result['Blood_Bag_Quantity'];
+                    $ReceiveDate = $result['Blood_Bag_RecievedDate'];
+                    $ExpiryDate = $result['Blood_Bag_Expiry'];
+                }
+            } else {
+                echo "No Records found";
+            }
+
+            echo "
+                <tr>
+                <td>" . '4' . "</td>
+                <td>" . 'AB+' . "</td>
+                <td>" . $BloodCount . "</td>
+                <td>" . $ReceiveDate . "</td>
+                <td>" . $ExpiryDate . "</td>
+                </tr>
+                ";
 
             ?>
 
