@@ -204,7 +204,8 @@ a:hover{
   justify-content: center;
   align-items: center;
 
-  background: hsl(220, 10%, 12%);
+  background: linear-gradient(to right, #00010a,#00010a,#002444,#00010a, #00010a); 
+  
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 

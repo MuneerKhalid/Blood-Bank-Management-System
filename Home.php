@@ -1,4 +1,12 @@
+<?php
+session_start();
+$userprofile = $_SESSION['user_name'];
 
+if ($userprofile == true) {
+} else {
+  header('location:Login.php');
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
