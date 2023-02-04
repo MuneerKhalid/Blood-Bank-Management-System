@@ -27,7 +27,7 @@ if ($userprofile == true) {
           <nav class="navbar">
             <h1 class="nav-logo">MK</h1>
             <ul class="nav-links">
-              <li><a href="./RoleValidation.php">Inventory</a></li>
+              <li><a href="./InventoryRoleValidation.php">Inventory</a></li>
               <li><a href="#About"> About Us</a></li>
               <li>Explore</li>
               <li><button ><a href="./Logout.php">Log Out</a></button></li>
