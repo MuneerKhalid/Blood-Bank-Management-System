@@ -1,4 +1,6 @@
 <?php
+include('./connect2.php');
+error_reporting(0);
 session_start();
 $userprofile = $_SESSION['user_name'];
 
@@ -29,7 +31,7 @@ if ($userprofile == true) {
             <ul class="nav-links">
               <li><a href="./InventoryRoleValidation.php">Inventory</a></li>
               <li><a href="#About"> About Us</a></li>
-              <li>Explore</li>
+              <li><a href="./backupInventory.php">Explore</a></li>
               <li><button ><a href="./Logout.php">Log Out</a></button></li>
             </ul>
           </nav>
