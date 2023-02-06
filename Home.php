@@ -56,7 +56,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="./Blood_Donation-732X549-thumbnail.webp"
                 alt="Brohm Lake"
               />
               <figcaption>Blood Donation</figcaption>
@@ -71,7 +71,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="./Blood_Donation-732X549-thumbnail.webp"
                 alt="Brohm Lake"
               />
             </figure>
@@ -100,7 +100,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="./Blood-Donation-2.webp"
                 alt="Image 2"
               />
               <figcaption>Need Blood?</figcaption>
@@ -115,7 +115,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="./Blood-Donation-2.webp"
                 alt="image-2"
               />
             </figure>
@@ -144,7 +144,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="./images.jpg"
                 alt="Brohm Lake"
               />
               <figcaption>Records</figcaption>
@@ -160,7 +160,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="./images.jpg"
                 alt="Brohm Lake"
               />
             </figure>

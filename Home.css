@@ -52,13 +52,13 @@ body {
 }
 
 .navbar .nav-links li:hover {
-  color: grey;
+  color: #fff;
   cursor: pointer;
   
 }
 
 a:link {
-  color: grey;
+  color: #fff;
   text-decoration: none;
   transition: color .2s ease;
 }
@@ -204,7 +204,8 @@ a:hover{
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(to right, #00010a,#00010a,#002444,#00010a, #00010a); 
+  background-color: #fff;
+
   
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
