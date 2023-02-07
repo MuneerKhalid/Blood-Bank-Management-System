@@ -56,7 +56,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="./Blood_Donation-732X549-thumbnail.webp"
+                src="/main 1.jpg"
                 alt="Brohm Lake"
               />
               <figcaption>Blood Donation</figcaption>
@@ -71,7 +71,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="./Blood_Donation-732X549-thumbnail.webp"
+                src="/main 1.jpg"
                 alt="Brohm Lake"
               />
             </figure>
@@ -100,7 +100,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="./Blood-Donation-2.webp"
+                src="./1.jpg"
                 alt="Image 2"
               />
               <figcaption>Need Blood?</figcaption>
@@ -115,7 +115,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="./Blood-Donation-2.webp"
+                src="./1.jpg"
                 alt="image-2"
               />
             </figure>
@@ -144,7 +144,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="./images.jpg"
+                src="./2.jpg"
                 alt="Brohm Lake"
               />
               <figcaption>Records</figcaption>
@@ -160,7 +160,7 @@ if ($userprofile == true) {
             <figure>
               <div class="img-bg"></div>
               <img
-                src="./images.jpg"
+                src="./2.jpg"
                 alt="Brohm Lake"
               />
             </figure>
