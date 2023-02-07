@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 04, 2023 at 06:25 AM
+-- Generation Time: Feb 07, 2023 at 11:05 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -47,7 +47,7 @@ CREATE TABLE `bloodrequester` (
 --
 
 INSERT INTO `bloodrequester` (`Requester_ID`, `Name`, `Age`, `Gender`, `Blood_Type`, `Blood_Bag_Quantity`, `Usage_Of_Blood`, `Date_Of_Request`, `Reason_Of_Need`, `Address`, `City`, `Contact`) VALUES
-(3, 'Osama Bin Ladin', 71, 'Male', 'B+', 2, 'Personal', '2023-02-10', 'Bombing people', 'Near Pak-Afghan Border', 'Karachi', 989889);
+(1, 'Osama Bin Ladin', 71, 'Male', 'B+', 2, 'Personal', '2023-02-10', 'Bombing people', 'Near Pak-Afghan Border', 'Karachi', 989889);
 
 -- --------------------------------------------------------
 
@@ -77,16 +77,14 @@ CREATE TABLE `donor` (
 
 INSERT INTO `donor` (`Donor_ID`, `Name`, `FatherName`, `Age`, `Gender`, `Weight`, `Blood_Type`, `Blood_Bag_Quantity`, `KnownDisease`, `RegistrationDate`, `Address`, `City`, `Contact`) VALUES
 (1, 'Muneer', 'Khalid', 20, 'Male', 55, 'A+', 4, 'None', '2023-01-14', 'Sharifabad', 'Karachi', 331324092),
-(2, 'Selmon', 'Boi', 65, 'Male', 98, 'B+', 2, 'Black Deer and katrina ', '2023-01-30', 'uttarpradesh', 'Multan', 912378723),
+(2, 'Selmon', 'Boi', 65, 'Male', 98, 'O+', 2, 'Black Deer ', '2023-01-30', 'uttarpradesh', 'Multan', 912378723),
 (3, 'Osaid', 'Ansari', 21, 'Male', 60, 'A+', 3, 'Hotness', '2023-01-05', 'Orangi', 'Karachi', 11922),
-(4, 'Arham', 'Nawaz', 18, 'Other', 120, 'B+', 1, 'Hamiz', '2023-02-22', 'islamabad', 'Lahore', 212323322),
-(12, 'Afridi', 'khan', 32, 'Male', 32, 'A+', 4, 'none', '2023-02-02', 'ewdd', 'Karachi', 344),
-(13, 'df', 'df', 54, 'Female', 45, 'B+', 2, 'gr', '2023-02-15', 'rgtg', 'Multan', 4554),
-(14, 'df', 'fer', 43, 'Female', 34, 'B+', 4, 'fref', '2023-02-22', 'rfefer', 'Peshawar', 434343),
-(15, 'red', 'erer', 43, 'Male', 34, 'A+', 5, 'erfer', '2023-02-01', 'ferf', 'Karachi', 443),
-(16, 'cdc', 'ds', 32, 'Male', 134, 'O+', 5, 'ffff', '2023-02-09', 'hfhf', 'Multan', 3434),
-(17, 'dbh', 'hdbsh', 23, 'Female', 23, 'AB+', 2, 'dssa', '2023-03-09', 'wd', 'Multan', 2323),
-(18, 'hedh', 'dhhd', 33, 'Female', 23, 'AB+', 4, 'hhsdh', '2023-02-15', 'hdshh', 'Multan', 3434);
+(4, 'Afridi', 'khan', 32, 'Male', 32, 'A+', 4, 'none', '2023-02-02', 'ewdd', 'Karachi', 344),
+(5, 'df', 'df', 54, 'Female', 45, 'B+', 2, 'gr', '2023-02-15', 'rgtg', 'Multan', 4554),
+(6, 'df', 'fer', 43, 'Female', 34, 'B+', 4, 'fref', '2023-02-22', 'rfefer', 'Peshawar', 434343),
+(7, 'red', 'erer', 43, 'Male', 34, 'A+', 5, 'erfer', '2023-02-01', 'ferf', 'Karachi', 443),
+(8, 'cdc', 'ds', 32, 'Male', 134, 'O+', 5, 'ffff', '2023-02-09', 'hfhf', 'Multan', 3434),
+(9, 'dbh', 'hdbsh', 23, 'Female', 23, 'AB+', 2, 'dssa', '2023-03-09', 'wd', 'Multan', 2323);
 
 -- --------------------------------------------------------
 
@@ -107,13 +105,13 @@ CREATE TABLE `inventory` (
 --
 
 INSERT INTO `inventory` (`Blood_ID`, `Blood_Type`, `Blood_Bag_Quantity`, `Blood_Bag_RecievedDate`, `Blood_Bag_Expiry`) VALUES
-(5, 'A+', 4, '2023-02-03', '2023-02-03'),
-(6, 'B+', 2, '2023-02-03', '2023-02-03'),
-(7, 'B+', 4, '2023-02-03', '2023-02-03'),
-(8, 'A+', 5, '2023-02-03', '2023-02-03'),
-(9, 'O+', 5, '2023-02-03', '2023-02-03'),
-(10, 'AB+', 2, '2023-02-03', '2023-02-03'),
-(11, 'AB+', 4, '2023-02-03', '2023-02-03');
+(1, 'A+', 4, '2023-02-03', '2023-02-03'),
+(2, 'B+', 2, '2023-02-03', '2023-02-03'),
+(3, 'B+', 4, '2023-02-03', '2023-02-03'),
+(4, 'A+', 5, '2023-02-03', '2023-02-03'),
+(5, 'O+', 5, '2023-02-03', '2023-02-03'),
+(6, 'AB+', 2, '2023-02-03', '2023-02-03'),
+(7, 'AB+', 4, '2023-02-03', '2023-02-03');
 
 -- --------------------------------------------------------
 
@@ -175,19 +173,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `bloodrequester`
 --
 ALTER TABLE `bloodrequester`
-  MODIFY `Requester_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `Requester_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `donor`
 --
 ALTER TABLE `donor`
-  MODIFY `Donor_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `Donor_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `inventory`
 --
 ALTER TABLE `inventory`
-  MODIFY `Blood_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `Blood_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `users`
