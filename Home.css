@@ -204,8 +204,8 @@ a:hover{
   justify-content: center;
   align-items: center;
 
-  background-color: #fff;
-
+  
+  background: linear-gradient(320deg, rgb(0, 11, 14),rgb(0,11,14), transparent);
   
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -216,13 +216,15 @@ a:hover{
   --white-1: hsl(0, 0%, 90%);
   --white-2: hsl(0, 0%, 80%);
   --dark: hsl(var(--hue), 25%, 10%);
-  --grey: hsl(0, 0%, 50%);
+  --grey: hsl(0, 0%, 2%);
 
   width: 310px;
   height: 500px;
   margin: 40px;
 
   perspective: 1000px;
+  
+
 }
 
 

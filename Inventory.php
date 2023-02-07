@@ -32,7 +32,6 @@ if ($userprofile == 'muneer') {
                 <th>Received Date</th>
                 <th>Expiry Date</th>
 
-                <th colspan="2" align="center">Operations</th>
             </tr>
 
             <?php

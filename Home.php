@@ -165,8 +165,8 @@ if ($userprofile == true) {
               />
             </figure>
 
-            <button><a href="./RoleValidation.php">View</a></button>
-
+            <button><a href="./RoleValidation.php">Donor</a><br><a href="./RoleValidation2.php">Requester</a></button>
+            
             <!-- can add svg here and remove these eight spans -->
             <div class="design-container">
               <span class="design design--1"></span>
@@ -186,7 +186,7 @@ if ($userprofile == true) {
 
           <g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)">
 
-            <rect x="-1.92" y="-1.92" width="27.84" height="27.84" rx="13.92" fill="#000428" strokewidth="0" />
+            <rect x="-1.92" y="-1.92" width="27.84" height="27.84" rx="13.92" fill="" strokewidth="0" />
 
           </g>
 

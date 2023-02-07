@@ -6,11 +6,12 @@
 
 
 body{
-    background-color: rgb(5, 61, 68);
+    background: linear-gradient(320deg, rgb(0, 11, 14),rgb(0,11,14), transparent);
+  
 }
 
 .heading{
-    background-color: rgb(5, 61, 68);
+    // background-color: rgb(5, 61, 68);
     padding: 4rem;
     height: 150px;
     margin-bottom: 1rem;
@@ -18,7 +19,7 @@ body{
 }
 
 .container{
-    background-color: rgb(5, 61, 68);
+    // background-color: rgb(5, 61, 68);
     padding: 4rem;
     padding-top: 0rem;
 
@@ -27,15 +28,14 @@ body{
 h1{
     margin-bottom: 2rem;
     color:white;
-    text-shadow: 12px 10px 5px rgba(224,229,230,0.5);
-}
+    }
 
 table{
     background-color: #fff;
     height: fit-content;
     padding: 4px;
     border-radius: 10px;
-    box-shadow: 20px 16px 20px rgba(224, 229, 230, 0.6);
+    box-shadow: 5px 6px 15px rgba(255, 255, 255, 0.6);
     
 }
 

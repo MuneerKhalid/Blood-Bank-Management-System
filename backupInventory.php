@@ -17,6 +17,7 @@ if ($userprofile == 'muneer') {
 <head>
     <title>Inventory</title>
     <link rel="stylesheet" href="Display.scss">
+    <link rel="stylesheet" href="./backup.css">
 </head>
 
 <body>
@@ -193,6 +194,67 @@ if ($userprofile == 'muneer') {
 
         </table>
     </div>
-</body>
 
+    <div class="form-container">
+        <form class="form-head" action="" method="post">
+        <h1 class="form-heading">Order Blood</h1>
+
+        <div class="input-group">
+          <label for="email" class="label">Email</label>
+          <input name="email" id="email" class="input" type="email" required>
+          <div></div>
+        </div>
+
+        <div class="input-group">
+        <label for="BloodType" class="label">Blood Type</label>
+        <select class="input" name="blood_type" id="blood_type" required>
+
+          <option class="label" value="">Select</option>
+          <option class="label" value="A+">A+</option>
+          <option class="label" value="A-">A-</option>
+          <option class="label" value="B-">B-</option>
+          <option class="label" value="O-">O-</option>
+          <option class="label" value="AB+">AB+</option>
+          <option class="label" value="AB-">AB-</option>
+
+        </select>
+      </div>
+
+        <div class="input-group">
+          <label for="Quantity" class="label">Quantity</label>
+          <input name="quantity" id="Quantity" class="input" type="number" required>
+          <div></div>
+        </div>
+
+        <button class="cta" type="submit" name="submit">
+
+        <span class="hover-underline-animation"> Order</span>
+
+        <svg viewBox="0 0 46 16" height="10" width="30" xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+          <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+        </svg>
+
+      </button>
+        </form>
+    </div>
+</body>
 </html>
+
+<?php
+if(isset($_POST['submit'])){
+    $Email = $_POST['email'];
+    $Blood_Type = $_POST['blood_type'];
+    $Quantity = $_POST['quantity'];
+
+    $query = "INSERT INTO `order`(`Email`, `BloodType`, `Quantity`) VALUES ('$Email','$Blood_Type','$Quantity') ";
+
+    $data = mysqli_query($conn,$query);
+
+    if($data){
+        echo "<script>alert('Order Placed')</script>";
+    } else{
+        echo "<script>alert('Order Failed')</script>";
+    }
+}
+
+?>
